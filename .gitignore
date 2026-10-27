@@ -1,0 +1,16 @@
+# 1. Abaikan semua gambar/fail yang dimuat naik dalam folder uploads
+uploads/*
+!uploads/.gitkeep
+
+# 2. Abaikan fail paparan lama
+readnilai.php
+
+# 3. Abaikan fail konfigurasi editor & sistem pengendalian (OS)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 4. Abaikan fail log dan sementara
+*.log
+*.tmp
